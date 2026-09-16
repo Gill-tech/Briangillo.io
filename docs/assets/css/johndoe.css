@@ -11088,6 +11088,46 @@ p {
   color: #6c757d;
 }
 
+.card {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.04);
+  overflow: hidden;
+}
+
+.card .card-header {
+  padding-bottom: 0.5rem;
+}
+
+.card .card-body {
+  padding: 1.5rem 1.5rem 1.25rem;
+}
+
+.card .card-body h6.title {
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.card .card-body p,
+.card .card-body li {
+  line-height: 1.75;
+}
+
+.card .card-body p.subtitle,
+.card .card-body .subtitle {
+  color: #5f6f83;
+  font-size: 0.92rem;
+}
+
+.card .card-body ul {
+  margin-top: 0.75rem;
+}
+
+.card .card-body hr {
+  margin: 1.25rem 0;
+  border-top-color: rgba(31, 41, 55, 0.12);
+}
+
 .price-card {
   padding: 30px;
   border: 1px solid #dee2e6;
@@ -11502,6 +11542,11 @@ pre .code {
   background: #17263C;
 }
 
+.footer .container {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .header {
   position: relative;
   height: 80vh;
@@ -11600,7 +11645,19 @@ pre .code {
 }
 
 .section {
-  padding: 80px 0;
+  padding: 90px 0;
+}
+
+.section h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+.section h2 .text-danger {
+  color: #F85C70 !important;
 }
 
 .section.bg-custom-gray {
@@ -11612,12 +11669,18 @@ pre .code {
 }
 
 .about-section .about-card {
-  padding: 60px;
+  padding: 60px 42px;
   border-right: 1px solid #dee2e6;
 }
 
 .about-section .about-card:last-child {
   border-right: none;
+}
+
+.about-section .about-card h3,
+.about-section .about-card h5,
+.about-section .about-card h6 {
+  color: #1f2937;
 }
 
 .contact {
@@ -11664,10 +11727,22 @@ pre .code {
   padding: 35px;
   background: #fff;
   min-height: 500px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.04);
 }
 
 .contact .contact-info-card {
   padding-right: 20px;
+}
+
+.contact .contact-info-card .row {
+  margin-bottom: 1.2rem;
+  padding: 0.3rem 0;
+}
+
+.contact .contact-info-card .row .col-10 {
+  padding-left: 0.85rem;
 }
 
 .contact .contact-title {
